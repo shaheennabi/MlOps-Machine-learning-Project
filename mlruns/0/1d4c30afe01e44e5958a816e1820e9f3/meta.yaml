@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mailm/Downloads/projects/MlOps-Project/mlruns/0/1d4c30afe01e44e5958a816e1820e9f3/artifacts
+end_time: 1729848487643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d4c30afe01e44e5958a816e1820e9f3
+run_name: amazing-deer-602
+run_uuid: 1d4c30afe01e44e5958a816e1820e9f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729848466187
+status: 4
+tags: []
+user_id: mailm

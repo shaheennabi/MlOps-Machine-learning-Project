@@ -1,20 +1,19 @@
 import os
 import sys
 import mlflow
-import mlflow.sklearn 
+import mlflow.sklearn
 import numpy as np
 import pickle
+from setuptools import _distutils as distutils
 from src.utils.utils import load_object
 from urllib.parse import urlparse
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 from src.logger.logging import logging
-from src.exception.exception  import CustomException
-
-
+from src.exception. exception import CustomException
 
 class ModelEvaluation:
     def __init__(self):
-        pass
+        logging.info("evaluation started")
 
     def eval_metrics(self,actual,pred):
         rmse = np.sqrt(mean_squared_error(actual, pred))# here is RMSE
@@ -37,8 +36,7 @@ class ModelEvaluation:
             tracking_url_type_store=urlparse(mlflow.get_tracking_uri()).scheme
 
             print(tracking_url_type_store)
-
-             
+            logging.info(" start mlflow.start_run")
             with mlflow.start_run():
 
                 prediction=model.predict(X_test)
@@ -50,6 +48,7 @@ class ModelEvaluation:
                 mlflow.log_metric("mae", mae)
 
                 if tracking_url_type_store != "file":
+
                     mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
                 else:
                     mlflow.sklearn.log_model(model, "model")
