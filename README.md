@@ -40,19 +40,25 @@ The dataset includes the following features:
 
    ```bash
    git clone https://github.com/shaheennabi/MlOps-Machine-learning-Project
+
+   ```
+2. Create conda env
+   ```bash
+   conda create -n mlops python=3.8 -y
    ```
 
-2. Install the required packages:
+3. Activate conda mlops
+   ```bash
+   conda activate mlops
+   ```
+
+4. Install the required packages:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run Jupyter Notebook to explore the project steps:
 
-   ```bash
-   jupyter lab
-   ```
 
 
 ## Future Work
