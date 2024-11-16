@@ -59,12 +59,12 @@ The dataset includes the following features:
    ```
 
 
-## Future Work 🚀
+## Future Work 🚀🎆🎇  
 
-Potential future directions include:
-- Improving the model by exploring more complex ensemble methods.
-- Incorporating domain-specific adjustments to better capture unique gemstone characteristics.
-- Integrating the model into an application for real-time pricing analysis.
+Potential future directions include:  
+🎆 Improving the model by exploring more complex ensemble methods.  
+🎇 Incorporating domain-specific adjustments to better capture unique gemstone characteristics.  
+🎆 Integrating the model into an application for real-time pricing analysis.  
 
 ## License 📜
 
