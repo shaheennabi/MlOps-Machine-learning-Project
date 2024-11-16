@@ -6,8 +6,9 @@ Gem Stones Co Ltd. is interested in using data-driven insights to optimize its p
 ## Problem Statement 💥
 You have been hired by Gem Stones Co Ltd., and are provided with a dataset containing prices and other attributes of nearly 27,000 cubic gemstones. The company’s profits vary across different price brackets, and by accurately predicting gemstone prices, they can better identify profitable stones, improving their profit share. 🎆
 
-The project objectives include:
-1. **Predicting gemstone prices** based on the provided dataset attributes.
+The project objectives include: 🎆  
+1. **Predicting gemstone prices** based on the provided dataset attributes. 🎇  
+
 
 ## Data Dictionary 🔮
 The dataset includes the following features:
